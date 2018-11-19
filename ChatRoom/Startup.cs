@@ -22,7 +22,7 @@ namespace Microsoft.Azure.SignalR.Samples.ChatRoom
             services.AddSignalR()
                     //REPLACE THE STRING HERE WITH THE AZURE SIGNALR CONNECTION STRING (In Settings/Keys for the Azure SignalR Resource)
                     //NOTE: In Production Code you'd save this value securely: see https://docs.microsoft.com/en-us/azure/azure-signalr/signalr-quickstart-dotnet-core#add-secret-manager-to-the-project
-                    .AddAzureSignalR("Endpoint=https://litfit.service.signalr.net;AccessKey=cny4+BollsikBS3MxN+XUvlqLA6WA+KqNE/smD77NbI=;Version=1.0;");
+                    .AddAzureSignalR("YOUR_CONNECTION_STRING_HERE");
         }
 
         public void Configure(IApplicationBuilder app)
